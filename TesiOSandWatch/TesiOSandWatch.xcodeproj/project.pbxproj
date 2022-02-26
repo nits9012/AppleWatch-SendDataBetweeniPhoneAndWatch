@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26C0094A27C7F334006F3579 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C0094927C7F334006F3579 /* AppDelegate.swift */; };
+		26C0094C27C7F334006F3579 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C0094B27C7F334006F3579 /* SceneDelegate.swift */; };
+		26C0094E27C7F334006F3579 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C0094D27C7F334006F3579 /* ViewController.swift */; };
+		26C0095127C7F334006F3579 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C0094F27C7F334006F3579 /* Main.storyboard */; };
+		26C0095327C7F337006F3579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26C0095227C7F337006F3579 /* Assets.xcassets */; };
+		26C0095627C7F337006F3579 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C0095427C7F337006F3579 /* LaunchScreen.storyboard */; };
+		26C0095B27C7F337006F3579 /* TesiOSandWatch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 26C0095A27C7F337006F3579 /* TesiOSandWatch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		26C0096127C7F337006F3579 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C0095F27C7F337006F3579 /* Interface.storyboard */; };
+		26C0096327C7F339006F3579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26C0096227C7F339006F3579 /* Assets.xcassets */; };
+		26C0096A27C7F339006F3579 /* TesiOSandWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 26C0096927C7F339006F3579 /* TesiOSandWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		26C0096F27C7F339006F3579 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C0096E27C7F339006F3579 /* InterfaceController.swift */; };
+		26C0097127C7F339006F3579 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C0097027C7F339006F3579 /* ExtensionDelegate.swift */; };
+		26C0097327C7F339006F3579 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C0097227C7F339006F3579 /* NotificationController.swift */; };
+		26C0097527C7F339006F3579 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C0097427C7F339006F3579 /* ComplicationController.swift */; };
+		26C0097727C7F33B006F3579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26C0097627C7F33B006F3579 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26C0095C27C7F337006F3579 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26C0093E27C7F333006F3579 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26C0095927C7F337006F3579;
+			remoteInfo = "TesiOSandWatch WatchKit App";
+		};
+		26C0096B27C7F339006F3579 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26C0093E27C7F333006F3579 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26C0096827C7F339006F3579;
+			remoteInfo = "TesiOSandWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		26C0097F27C7F33B006F3579 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				26C0096A27C7F339006F3579 /* TesiOSandWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26C0098327C7F33B006F3579 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				26C0095B27C7F337006F3579 /* TesiOSandWatch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		26C0094627C7F334006F3579 /* TesiOSandWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TesiOSandWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26C0094927C7F334006F3579 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26C0094B27C7F334006F3579 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		26C0094D27C7F334006F3579 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		26C0095027C7F334006F3579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26C0095227C7F337006F3579 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26C0095527C7F337006F3579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26C0095727C7F337006F3579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26C0095A27C7F337006F3579 /* TesiOSandWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TesiOSandWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26C0096027C7F337006F3579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		26C0096227C7F339006F3579 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26C0096427C7F339006F3579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26C0096927C7F339006F3579 /* TesiOSandWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TesiOSandWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26C0096E27C7F339006F3579 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		26C0097027C7F339006F3579 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		26C0097227C7F339006F3579 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		26C0097427C7F339006F3579 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		26C0097627C7F33B006F3579 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26C0097827C7F33B006F3579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26C0097927C7F33B006F3579 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26C0094327C7F334006F3579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26C0096627C7F339006F3579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26C0093D27C7F333006F3579 = {
+			isa = PBXGroup;
+			children = (
+				26C0094827C7F334006F3579 /* TesiOSandWatch */,
+				26C0095E27C7F337006F3579 /* TesiOSandWatch WatchKit App */,
+				26C0096D27C7F339006F3579 /* TesiOSandWatch WatchKit Extension */,
+				26C0094727C7F334006F3579 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26C0094727C7F334006F3579 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26C0094627C7F334006F3579 /* TesiOSandWatch.app */,
+				26C0095A27C7F337006F3579 /* TesiOSandWatch WatchKit App.app */,
+				26C0096927C7F339006F3579 /* TesiOSandWatch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26C0094827C7F334006F3579 /* TesiOSandWatch */ = {
+			isa = PBXGroup;
+			children = (
+				26C0094927C7F334006F3579 /* AppDelegate.swift */,
+				26C0094B27C7F334006F3579 /* SceneDelegate.swift */,
+				26C0094D27C7F334006F3579 /* ViewController.swift */,
+				26C0094F27C7F334006F3579 /* Main.storyboard */,
+				26C0095227C7F337006F3579 /* Assets.xcassets */,
+				26C0095427C7F337006F3579 /* LaunchScreen.storyboard */,
+				26C0095727C7F337006F3579 /* Info.plist */,
+			);
+			path = TesiOSandWatch;
+			sourceTree = "<group>";
+		};
+		26C0095E27C7F337006F3579 /* TesiOSandWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				26C0095F27C7F337006F3579 /* Interface.storyboard */,
+				26C0096227C7F339006F3579 /* Assets.xcassets */,
+				26C0096427C7F339006F3579 /* Info.plist */,
+			);
+			path = "TesiOSandWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		26C0096D27C7F339006F3579 /* TesiOSandWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				26C0096E27C7F339006F3579 /* InterfaceController.swift */,
+				26C0097027C7F339006F3579 /* ExtensionDelegate.swift */,
+				26C0097227C7F339006F3579 /* NotificationController.swift */,
+				26C0097427C7F339006F3579 /* ComplicationController.swift */,
+				26C0097627C7F33B006F3579 /* Assets.xcassets */,
+				26C0097827C7F33B006F3579 /* Info.plist */,
+				26C0097927C7F33B006F3579 /* PushNotificationPayload.apns */,
+			);
+			path = "TesiOSandWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26C0094527C7F334006F3579 /* TesiOSandWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26C0098427C7F33B006F3579 /* Build configuration list for PBXNativeTarget "TesiOSandWatch" */;
+			buildPhases = (
+				26C0094227C7F334006F3579 /* Sources */,
+				26C0094327C7F334006F3579 /* Frameworks */,
+				26C0094427C7F334006F3579 /* Resources */,
+				26C0098327C7F33B006F3579 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26C0095D27C7F337006F3579 /* PBXTargetDependency */,
+			);
+			name = TesiOSandWatch;
+			productName = TesiOSandWatch;
+			productReference = 26C0094627C7F334006F3579 /* TesiOSandWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26C0095927C7F337006F3579 /* TesiOSandWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26C0098027C7F33B006F3579 /* Build configuration list for PBXNativeTarget "TesiOSandWatch WatchKit App" */;
+			buildPhases = (
+				26C0095827C7F337006F3579 /* Resources */,
+				26C0097F27C7F33B006F3579 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26C0096C27C7F339006F3579 /* PBXTargetDependency */,
+			);
+			name = "TesiOSandWatch WatchKit App";
+			productName = "TesiOSandWatch WatchKit App";
+			productReference = 26C0095A27C7F337006F3579 /* TesiOSandWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		26C0096827C7F339006F3579 /* TesiOSandWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26C0097C27C7F33B006F3579 /* Build configuration list for PBXNativeTarget "TesiOSandWatch WatchKit Extension" */;
+			buildPhases = (
+				26C0096527C7F339006F3579 /* Sources */,
+				26C0096627C7F339006F3579 /* Frameworks */,
+				26C0096727C7F339006F3579 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TesiOSandWatch WatchKit Extension";
+			productName = "TesiOSandWatch WatchKit Extension";
+			productReference = 26C0096927C7F339006F3579 /* TesiOSandWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26C0093E27C7F333006F3579 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					26C0094527C7F334006F3579 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					26C0095927C7F337006F3579 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					26C0096827C7F339006F3579 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 26C0094127C7F333006F3579 /* Build configuration list for PBXProject "TesiOSandWatch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26C0093D27C7F333006F3579;
+			productRefGroup = 26C0094727C7F334006F3579 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26C0094527C7F334006F3579 /* TesiOSandWatch */,
+				26C0095927C7F337006F3579 /* TesiOSandWatch WatchKit App */,
+				26C0096827C7F339006F3579 /* TesiOSandWatch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26C0094427C7F334006F3579 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C0095627C7F337006F3579 /* LaunchScreen.storyboard in Resources */,
+				26C0095327C7F337006F3579 /* Assets.xcassets in Resources */,
+				26C0095127C7F334006F3579 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26C0095827C7F337006F3579 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C0096327C7F339006F3579 /* Assets.xcassets in Resources */,
+				26C0096127C7F337006F3579 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26C0096727C7F339006F3579 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C0097727C7F33B006F3579 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26C0094227C7F334006F3579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C0094E27C7F334006F3579 /* ViewController.swift in Sources */,
+				26C0094A27C7F334006F3579 /* AppDelegate.swift in Sources */,
+				26C0094C27C7F334006F3579 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26C0096527C7F339006F3579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C0097327C7F339006F3579 /* NotificationController.swift in Sources */,
+				26C0097527C7F339006F3579 /* ComplicationController.swift in Sources */,
+				26C0097127C7F339006F3579 /* ExtensionDelegate.swift in Sources */,
+				26C0096F27C7F339006F3579 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26C0095D27C7F337006F3579 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26C0095927C7F337006F3579 /* TesiOSandWatch WatchKit App */;
+			targetProxy = 26C0095C27C7F337006F3579 /* PBXContainerItemProxy */;
+		};
+		26C0096C27C7F339006F3579 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26C0096827C7F339006F3579 /* TesiOSandWatch WatchKit Extension */;
+			targetProxy = 26C0096B27C7F339006F3579 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26C0094F27C7F334006F3579 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26C0095027C7F334006F3579 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26C0095427C7F337006F3579 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26C0095527C7F337006F3579 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		26C0095F27C7F337006F3579 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26C0096027C7F337006F3579 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26C0097A27C7F33B006F3579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26C0097B27C7F33B006F3579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		26C0097D27C7F33B006F3579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TesiOSandWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TesiOSandWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		26C0097E27C7F33B006F3579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TesiOSandWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TesiOSandWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		26C0098127C7F33B006F3579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = TesiOSandWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "TesiOSandWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TesiOSandWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		26C0098227C7F33B006F3579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = TesiOSandWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "TesiOSandWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TesiOSandWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		26C0098527C7F33B006F3579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TesiOSandWatch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TesiOSandWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26C0098627C7F33B006F3579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TesiOSandWatch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TesiOSandWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26C0094127C7F333006F3579 /* Build configuration list for PBXProject "TesiOSandWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26C0097A27C7F33B006F3579 /* Debug */,
+				26C0097B27C7F33B006F3579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26C0097C27C7F33B006F3579 /* Build configuration list for PBXNativeTarget "TesiOSandWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26C0097D27C7F33B006F3579 /* Debug */,
+				26C0097E27C7F33B006F3579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26C0098027C7F33B006F3579 /* Build configuration list for PBXNativeTarget "TesiOSandWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26C0098127C7F33B006F3579 /* Debug */,
+				26C0098227C7F33B006F3579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26C0098427C7F33B006F3579 /* Build configuration list for PBXNativeTarget "TesiOSandWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26C0098527C7F33B006F3579 /* Debug */,
+				26C0098627C7F33B006F3579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26C0093E27C7F333006F3579 /* Project object */;
+}
